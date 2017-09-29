@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百联首页-zn</title>
+		<link rel="stylesheet" type="text/css" href="css/resert.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style-01.css"/>
+		
+		<script src="js/jquery-1.12.3.js"></script>
+		<script src="js/slidershow-01.js"></script>
+		<script src="js/slidershow-02.js"></script>
+		<script src="js/cargo.js"></script>
+		<script src="js/louti.js"></script>
+		<script src="js/right_side.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="tools-warpper">
+			<div class="head">
+				<div class="bl-name" title="百联集团旗下全渠道电商平台">
+					<div class="text">百联集团旗下全渠道电商平台</div>
+					<b></b>
+				</div>
+				
+				<div class="bl-left">
+					<div class="leftfoot">
+						<a href="#">
+							<span>网站导航</span>
+							<i></i>
+						</a>
+					</div>
+				</div>
+				
+				<div class="bl-info">
+					<a href="#">消息</a>
+				</div>
+				
+				<div class="bl-right">
+					<ul>
+						<li>
+							<a href="#">
+								<i class="denglu"></i>
+								<span>请登录</span>
+							</a>
+							<a href="#">注册</a>					
+						</li>
+						<li>
+							<a href="">我的订单</a>
+
+						</li>
+						<li id="mybailian">
+							<a href="#">
+								<span>我的百联</span>
+								<i></i>
+							</a>
+							<ul id="bailian-list">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的评价</a></li>
+								<li><a href="#">我的积分</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">我的优惠券</a></li>
+							</ul>
+						</li>
+						<li id="jiaofei">
+							<a href="">
+								<span>缴费充值</span>
+								<i></i>
+							</a>
+							<div class="pay" id="pay">
+								<ul class="pay-list">
+									<li class="pay-li">
+										<div class="pay-title">影娱生活</div>
+										<div class="pay-con">
+											<a href="#">咪咕电影卡</a>
+										</div>
+									</li>
+									<li class="pay-li">
+										<div class="pay-title">水电煤缴费</div>
+										<div class="pay-con">
+											<a href="#">缴费首页</a>
+											<a href="#">水费缴费</a>
+											<a href="#">电费缴费</a>
+											<a href="#">燃气缴费</a>
+										</div>
+									</li>
+									<li class="pay-li">
+										<div class="pay-title">手机充值</div>
+										<div class="pay-con">
+											<a href="#">手机充值</a>
+											<a href="#">流量充值</a>
+											<a href="#">更多充值</a>											
+										</div>
+									</li>
+									<li class="pay-li">
+										<div class="pay-title">其他缴费</div>
+										<div class="pay-con">
+											<a href="#">宽带缴费</a>
+											<a href="#">铁通缴费</a>
+											<a href="#">有限电视缴费</a>											
+										</div>
+									</li>
+									<li class="pay-li">
+										<div class="pay-title">游戏点卡</div>
+										<div class="pay-con">
+											<a href="#">腾讯Q币充值</a>
+											<a href="#">盛大点券充值</a>
+											<a href="#">游戏中心</a>											
+										</div>
+									</li>
+									<li class="pay-li">
+										<div class="pay-title">其他保险</div>
+										<div class="pay-con">
+											<a href="#">车险</a>
+											<a href="#">人寿保险</a>										
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li id="kefu">
+							<a href="">
+								<span>客服服务</span>
+								<i></i>
+							</a>
+							<ul id="kefu-list">
+								<li><a href="#">在线服务</a></li>
+								<li><a href="#">帮忙中心</a></li>
+							</ul>
+						</li>
+						<li id="zhangshang">
+							<a href="">
+								<span>掌上百联</span>
+								<i></i>
+							</a>
+							<div class="zhangshang-list" id="zhangshang-list">
+								<div class="palm-item">
+									<a class="palm-item-img">
+										<img src="images/zhangshang.jpg"/>
+									</a>
+									<div class="palm-item-line">
+										<a href="#" class="palm-item-title">i百联APP</a>
+									</div>
+									<div class="palm-item-line">
+										<a href="#" class="palm-item-message">手机购物更方便</a>
+									</div>
+								</div>
+								
+							</div>
+						</li>
+						<li>
+							<a href="">购物车</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		
+			
+		<!--广告-->
+		<div id="advert-warpper">
+			<div class="advert">
+				<img src="images/adverting.jpg" />
+				<i id="advert-del"></i>
+			</div>
+		</div>
+		
+			
+		<!--搜索-->
+		<div id="header-warpper">
+			<div class="header">
+				<div class="logo">
+					<div class="logo-l">
+						<a href="#">
+							<img src="images/logo.gif"/>
+						</a>
+					</div>
+					<div class="logo-r">
+						<a href="#">
+							<img src="images/logo-2.jpg"/>
+						</a>
+					</div>
+				</div>
+			
+				<div class="search">
+					<div class="search-top">
+						<input type="text" id="txt" placeholder="飞利浦声波牙刷" />
+						<div class="search-top-button">
+							<button type="submit"></button>
+						</div>
+						<div class="search-foot">
+							<a href="">月饼</a>
+							<span>|</span>
+							<a href="">牛奶</a>
+							<span>|</span>
+							<a href="">小米</a>
+							<span>|</span>
+							<a href="">面膜</a>
+							<span>|</span>
+							<a href="">酸奶</a>
+							<span>|</span>
+							<a href="">大王</a>
+							<span>|</span>
+							<a href="">花王</a>
+							<span>|</span>
+							<a href="">卫生巾</a>
+							<span>|</span>
+							<a href="">大米</a>
+							<span>|</span>
+							<a href="">百联卡中秋卡</a>
+							<span>|</span>
+						</div>
+					</div>
+					
+					
+					
+					<div class="search-right">
+						<a href="#">安付宝OK卡专区</a>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+			
+		<!--nav导航栏-->
+		<div id="nav-warpper">
+			<div class="nav">
+				<div class="nav-left">
+					<div class="nav-leftfoot">
+						<i></i>
+						<a href="#">所有商品分类</a>
+					</div>
+					<div class="show-nav">
+						<div class="banner-itemleft">
+							<ul>
+								<li>
+									<i class="jinkou"></i>
+									<a href="#">百联进口全球购</a>
+								</li>
+								<li>
+									<i class="shengxian"></i>
+									<a href="#">生鲜食品</a>
+								</li>
+								<li>
+									<i class="shipin"></i>
+									<a href="#">食品粮油</a>
+									<a href="#">酒水冲饮</a>
+								</li>
+								<li>
+									<i class="meirong"></i>
+									<a href="#">美容护理</a>
+								</li>
+								<li>
+									<i class="muying"></i>
+									<a href="#">母婴</a>
+									<a href="#">玩具</a>
+								</li>
+								<li>
+									<i class="canchu"></i>
+									<a href="#">餐厨用具</a>
+									<a href="#">家具家装</a>
+								</li>
+								<li>
+									<i class="jiaqing"></i>
+									<a href="#">家清</a>
+									<a href="#">纸品</a>
+									<a href="#">一次性</a>
+								</li>
+								<li>
+									<i class="nvzhuang"></i>
+									<a href="#">女装</a>
+									<a href="#">男装</a>
+								</li>
+								<li>
+									<i class="xiexue"></i>
+									<a href="#">鞋靴箱包</a>
+									<a href="#">珠宝饰品</a>
+								</li>
+								<li>
+									<i class="shouji"></i>
+									<a href="#">手机数码</a>
+									<a href="#">电脑办公</a>
+								</li>
+								<li>
+									<i class="jiayong"></i>
+									<a href="#">家用电器</a>
+								</li>
+								<li>
+									<i class="yundong"></i>
+									<a href="#">运动户外</a>
+									<a href="#">汽车用品</a>
+								</li>
+								<li>
+									<i class="yingyang"></i>
+									<a href="#">营养滋补</a>
+									<a href="#">保健器材</a>
+								</li>
+								<li>
+									<i class="lipin"></i>
+									<a href="#">礼品卡</a>
+									<a href="#">充值</a>
+									<a href="#">图书</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="nav-right">
+					<ul>
+						<li><a href=""><img src="images/richang.gif"></a></li>
+						<li><a href=""><img src="images/baihuo.gif"/></a></li>
+						<li><a href=""><img src="images/quanqiu.gif" alt="" /></a></li>
+						<li><a href=""><img src="images/jingpin.gif" alt="" /></a></li>
+						<li><a href=""><img src="images/diancheng.gif" alt="" /></a></li>
+						<li><a href=""><img src="images/aolai.gif" alt="" /></a></li>
+						<li><a href="">礼品卡</a></li>
+					</ul>
+				</div>
+				<!--快递小哥图片-->
+				<div class="car">
+					<a href="" target="_blank">
+        			<img src="images/car.gif">
+					</a>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!--lside左侧边栏  楼梯效果-->	
+		<div id="navigation" style="display: block;">
+			<a id="navigation1" href="#floor1" class="">
+				<div class="box i1">生鲜蔬果</div>
+			</a>
+			<a id="navigation2" href="#floor2" class="">
+				<div class="box i2">进口商品</div>
+			</a>
+			<a id="navigation3" href="#floor3" class="select">
+				<div class="box i3">食品饮料</div>
+			</a>
+			<a id="navigation4" href="#floor4" class="">
+				<div class="box i4">个护清洁</div>
+			</a>
+			<a id="navigation5" href="#floor5" class="">
+				<div class="box i5">时尚百货</div>
+			</a>
+			<a id="navigation6" href="#floor6" class="">
+				<div class="box i6">家居家纺</div>
+			</a>
+			<a id="navigation7" href="#floor7" class="">
+				<div class="box i7">母婴玩具</div>
+			</a>
+			<a id="navigation8" href="#floor8" class="">
+				<div class="box i8">3C数码</div>
+			</a>
+			<a id="navigation9" href="#">
+				<div class="box i9">返回顶部</div>
+			</a>
+		</div>
+		<!--rside侧边栏-->
+		<div id="rside">
+			<div class="rside-main">
+				<div class="user login" id="user-login">
+					<i></i>
+					<div class="user-tab" id="login-tab">
+						我的信息
+						<span class="tab-jiao"></span>
+					</div>
+				</div>
+				
+				<div class="shopcar" id="shopcar">
+					<i></i>
+					<span>购<br />物<br />车</span>
+					<b id="shop-num">0</b>
+					<img src="images/cartbar-bk.png" />
+					<div class="car-bottom"></div>
+				</div>
+				
+				<div class="user collect" id="user-collect">
+					<i></i>
+					<div class="user-tab" id="collect-tab">
+						我的收藏
+						<span class="tab-jiao"></span>
+					</div>
+				</div>
+				
+				<div class="user history" id="user-history">
+					<i></i>
+					<div class="user-tab" id="history-tab">
+						浏览历史
+						<span class="tab-jiao"></span>
+					</div>
+				</div>
+				
+				<div class="user qrcode" id="user-qrcode">
+					<i></i>
+					<div class="qrcode-tab" id="qrcode-tab">
+						<div class="qrcode-title">手机App专享</div>
+						<img src="images/weixincode.png" />
+						<span class="qrcode-tab-jiao"></span>
+					</div>
+					<div class="qr-dd"></div>
+				</div>
+				
+				<div class="user service" id="user-service">
+					<i></i>
+					<div class="user-tab" id="service-tab">
+						我的客服
+						<span class="tab-jiao"></span>
+					</div>
+				</div>
+				
+				<div class="user totop" id="user-totop">
+					<i></i>
+					<div class="user-tab" id="totop-tab">
+						返回顶部
+						<span class="tab-jiao"></span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="riside-content">
+				<div class="conbar01">
+					<div class="conbar-h">
+						<i class="closed"></i>
+					</div>
+					<div class="member-login">
+						<form id="formlogin" onsubmit="return false">
+							<div class="logintitle">								
+					            <div class="fl">会员登录</div>
+					            <div class="fr"><a id="register" href="#">注册新账号</a></div>					          
+							</div>
+							<input type="text" placeholder="用户名/手机好/邮箱" class="username"/>
+					        <input type="password" placeholder="密码"  class="pass01"/>
+					        <div class="forget"><a href="#">忘记密码？</a></div>
+					        <button id="loginsub" class="but">登录</button>
+					        <div class="other-login">
+					            <div class="other-login-bottom">
+					            	<span>其他账号联合登录</span>
+					            </div>
+					        </div>
+						</form>
+					</div>
+				</div>
+				<div class="conbar02">
+					<div class="shopcar-h">
+				        <i class="sidebar-closed"></i>
+						<a href="#" target="_blank"><i id="purchaseicon"></i></a>					
+					</div>
+					<div class="car-content">
+						<ul class="product-show"></ul>
+						<div class="shopcar-sub">							
+							<div>共
+								<i id="txtTotalGoodsNum">0</i>
+								件商品，总计：
+								<span id="txtTotalGoodsMoney">￥0.00</span>
+							</div>
+							<a href="#" class="tomycar">查看购物车</a>					
+						</div>
+						<div class="clearcar">
+							购物车快饿扁了 /(ToT)/~~
+							</br>
+							<i>尝试买些东西再回来看看</i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+			
+			
+		<!--banner图-->
+		<div id="banner-warpper">
+			<div class="banner">
+				<div class="slidershow" id="slidershow">
+					<ul class="slidershow-list" id="slidershow-list">
+						<li style="background: rgb(253, 232, 219);"><a href="#"><img src="images/banner01.jpg" alt="" /></a></li>
+						<li style="background: rgb(252, 238, 227);"><a href="#"><img src="images/banner02.jpg" alt="" /></a></li>
+						<li style="background: rgb(255, 249, 180);"><a href="#"><img src="images/banner03.jpg" alt="" /></a></li>
+						<li style="background: rgb(213, 236, 254);"><a href="#"><img src="images/banner04.jpg" alt="" /></a></li>
+						<li style="background: rgb(247, 220, 227);"><a href="#"><img src="images/banner05.jpg" alt="" /></a></li>
+						<li style="background: rgb(254, 244, 195);"><a href="#"><img src="images/banner06.jpg" alt="" /></a></li>
+						<li style="background: rgb(253, 223, 250);"><a href="#"><img src="images/banner07.jpg" alt="" /></a></li>
+						<li style="background: rgb(244, 231, 212);"><a href="#"><img src="images/banner08.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+				<ol class="slidershow-control" id="slidershow-control">
+					<li class="prev" id="prev"></li>
+					<li class="next" id="next"></li>
+				</ol>
+				<ol class="slidershow-indicator-list" id="slidershow-indicator-list">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+				<div class="banner-recommend">
+					<div class="banner-title01">
+						<a href="#" class="banner_more">更多</a>
+						<ol>
+							<li><a href="#"><span>[超值]</span>畅享户外每满300减100</a></li>
+							<li><a href="#"><span>[活动]</span>联合登录送20抵用券</a></li>
+							<li><a href="#"><span>[大牌]</span>超超超便宜的索尼电视！</a></li>
+						</ol>
+					</div>
+					<div class="banner-title02">
+						<ul>
+							<li><a href="#"><img src="images/ico1.png" alt="" /><span>充话费</span></a></li>
+							<li><a href="#"><img src="images/ico2.png" alt="" /><span>游戏</span></a></li>
+							<li><a href="#"><img src="images/ico3.png" alt="" /><span>固话</span></a></li>
+							<li><a href="#"><img src="images/ico4.png" alt="" /><span>水电煤</span></a></li>
+							<li><a href="#"><img src="images/ico5.png" alt="" /><span>车险</span></a></li>
+							<li><a href="#"><img src="images/ico6.png" alt="" /><span>游戏中心</span></a></li>
+							<li><a href="#"><img src="images/ico7.png" alt="" /><span>影娱生活</span></a></li>
+							<li><a href="#"><img src="images/ico8.png" alt="" /><span>冲流量</span></a></li>
+							<li><a href="#"><img src="images/ico9.png" alt="" /><span>礼品卡</span></a></li>
+						</ul>
+						<div class="banner-advert">
+							<a href="#"><img src="images/banner-advert.jpg" alt="" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--商品列表-->
+		<div id="new-czt">
+			<div id="czt">
+				<div class="new-czt-l">
+					<a href="#">
+						<img src="images/czt-01.jpg" />
+					</a>
+				</div>
+				<div class="new-czt-r">
+					<div class="new-czt-prev"></div>
+					<div class="new-czt-next"></div>
+					<ul class="new-czt-ul">
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt-02.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt03.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt04.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt05.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt06.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt07.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt08.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt09.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt10.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt11.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt12.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="new-czt-show">
+								<a href="#"><img src="images/czt13.jpg" width="140" height="140"/></a>
+								<div class="new-czt-name"><a href="#">Tempo/得宝 软包抽纸 软抽4层90抽*18包 天然无香(整箱销售)</a></div>
+								<div class="new-czt-money">
+									<div class="money">
+										￥<span style="font-size: 16px;">69.9</span>
+									</div>
+									<div class="price">参考价：￥79.9</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="new-zm">
+			<div id="zm">
+				<div class="new-zm-l">
+					<a href="#"><img src="images/zm01.jpg" alt="" width="305" height="370"/></a>
+				</div>
+				<ul class="new-zm-r">
+					<li><a href="#"><img src="images/zm02.jpg" alt="" width="285" height="180"/></a></li>
+					<li><a href="#"><img src="images/zm03.jpg" alt="" width="285" height="180"/></a></li>
+					<li><a href="#"><img src="images/zm04.jpg" alt="" width="285" height="180"/></a></li>
+					<li><a href="#"><img src="images/zm05.jpg" alt="" width="285" height="180"/></a></li>
+					<li><a href="#"><img src="images/zm06.jpg" alt="" width="285" height="180"/></a></li>
+					<li><a href="#"><img src="images/zm07.jpg" alt="" width="285" height="180"/></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--商品楼层floor-->
+		<div id="floor1-warpper" class="floor-warpper">
+			<div id="floor1" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">生鲜果蔬</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor1-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor1-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor1-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li class="floor-cont-oneli"><a href="#"><img src="images/floor1-con01.jpg" width="451" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor1-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor1-con03.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-list">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor1-con04.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor1-con05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor1-con06.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor1-con07.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>						
+		</div>
+		
+		<div id="floor2-warpper" class="floor-warpper">
+			<div id="floor2" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">食品饮料酒</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor2-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor2-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor2-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li><a href="#"><img src="images/floor2-con01.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor2-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor2-con03.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor2-con04.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-list">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor2-con05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor2-con06.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor2-con07.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor2-con08.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="floor3-warpper" class="floor-warpper">
+			<div id="floor3" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">时尚大牌</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor3-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor3-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor3-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li><a href="#"><img src="images/floor3-con01.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con03.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor3-con04.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-t">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor3-con05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con06.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con07.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor3-con08.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+							<ul class="floor-conb-b">
+								<li><a href="#"><img src="images/floor3-con09.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con10.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con11.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con12.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con13.jpg" width="104" height="46" alt="" /></a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div id="floor4-warpper" class="floor-warpper">
+			<div id="floor4" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">精品百货</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor4-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor4-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor4-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li><a href="#"><img src="images/floor4-scon01.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor1-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor3-con03.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor3-con04.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-t">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor4-scon05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor4-scon06.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor4-scon07.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor4-scon08.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+							<ul class="floor-conb-b">
+								<li><a href="#"><img src="images/floor4-scon09.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor4-scon10.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor4-scon11.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor4-scon12.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor4-scon13.jpg" width="104" height="46" alt="" /></a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="floor5-warpper" class="floor-warpper">
+			<div id="floor5" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">个人清洁</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor5-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor5-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor5-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li><a href="#"><img src="images/floor5-con01.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con03.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor5-con04.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-t">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor5-con05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con06.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con07.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor5-con08.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+							<ul class="floor-conb-b">
+								<li><a href="#"><img src="images/floor5-con09.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con10.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con11.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con12.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con13.jpg" width="104" height="46" alt="" /></a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="floor6-warpper" class="floor-warpper">
+			<div id="floor6" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">母婴玩具</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor6-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor6-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor6-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li><a href="#"><img src="images/floor6-con01.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con03.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor6-con04.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-t">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor6-con05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con06.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con07.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor6-con08.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+							<ul class="floor-conb-b">
+								<li><a href="#"><img src="images/floor6-con09.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con10.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con11.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con12.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor6-con13.jpg" width="104" height="46" alt="" /></a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="floor7-warpper" class="floor-warpper">
+			<div id="floor7" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">个人清洁</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor7-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor7-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor7-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li><a href="#"><img src="images/floor7-con01.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor5-con03.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor5-con04.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-t">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor7-con05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor7-con06.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor7-con07.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor5-con08.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+							<ul class="floor-conb-b">
+								<li><a href="#"><img src="images/floor7-con09.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor7-con10.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor7-con11.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor7-con12.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor7-con13.jpg" width="104" height="46" alt="" /></a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="floor8-warpper" class="floor-warpper">
+			<div id="floor8" class="floor">
+				<div class="floor-box">
+					<h3 class="floor-h">3C数码</h3>
+					<div class="floor-slide">
+						<ul class="slide-main"> 
+							<li>
+								<a href="">
+									<img src="images/floor8-slide01.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor8-slide02.jpg" width="306" height="422" alt="" />				
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="images/floor8-slide03.jpg" width="306" height="422" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ol class="progress-ol">
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ol>
+					</div>
+					<div class="floor-con">
+						<div class="floor-cont">
+							<ul class="floor-cont-list">
+								<li><a href="#"><img src="images/floor8-con01.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con02.jpg" width="230" height="300" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con03.jpg" width="230" height="300" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor8-con04.jpg" width="230" height="300" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="floor-conb">
+							<ul class="floor-conb-t">
+								<li class="floor-conb-oneli"><a href="#"><img src="images/floor8-con05.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con06.jpg" width="220" height="97" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con07.jpg" width="220" height="97" alt="" /></a></li>
+								<li style="border-right: none;"><a href="#"><img src="images/floor8-con08.jpg" width="220" height="97" alt="" /></a></li>
+							</ul>
+							<ul class="floor-conb-b">
+								<li><a href="#"><img src="images/floor8-con09.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con10.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con11.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con12.jpg" width="104" height="46" alt="" /></a></li>
+								<li><a href="#"><img src="images/floor8-con13.jpg" width="104" height="46" alt="" /></a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!--你喜欢的商品-->
+		<div id="youlike-warpper">
+			<div id="youlike">
+				<h2>猜你喜欢<span>You May Also Like</span></h2>
+				<ul class="pro-list">
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro1-show01.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">索尼（SONY）55英寸 KD-55X9000E 4K超高清智能LED液晶电视 安卓6.0系统 X1芯片 HDR液晶电视</a></div>
+							<div class="pro-money">￥<span>7999.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro1-show02.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">可爱可 保鲜膜简装 30cm*60m</a></div>
+							<div class="pro-money">￥<span>12.5</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro1-show03.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">比安奇 意式特香咖啡粉 250g</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro1-show04.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">汇源100%橙汁纯果汁1L/盒</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro1-show05.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">布鲁雅尔(Blueair) 200系列 Particle粒子型过滤网</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+				</ul>
+				
+				<ul class="pro-list">
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro2-show01.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">CPB 肌肤之钥 光透白隔离乳SPF30 PA++ 30ml</a></div>
+							<div class="pro-money">￥<span>637.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro2-show02.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">三洋(dacco)诞福产妇专用立体卫生巾 M 恶露月子产后专用卫生棉 </a></div>
+							<div class="pro-money">￥<span>86.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro2-show03.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">浪莎 保暖内衣女 薄款莫代尔圆领打底冬女士秋衣秋裤 美体内衣套</a></div>
+							<div class="pro-money">￥<span>86.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro2-show04.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">雷蛇（Razer）炼狱蝰蛇 2013幻彩版 USB游戏鼠标 黑色 </a></div>
+							<div class="pro-money">￥<span>235.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro2-show05.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">布鲁雅尔(Blueair) 200系列 Particle粒子型过滤网</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+				</ul>
+				
+				<ul class="pro-list">
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro3-show01.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">索尼（SONY）55英寸 KD-55X9000E 4K超高清智能LED液晶电视 安卓6.0系统 X1芯片 HDR液晶电视</a></div>
+							<div class="pro-money">￥<span>7999.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro3-show02.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">可爱可 保鲜膜简装 30cm*60m</a></div>
+							<div class="pro-money">￥<span>12.5</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro3-show03.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">比安奇 意式特香咖啡粉 250g</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro3-show04.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">汇源100%橙汁纯果汁1L/盒</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro3-show05.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">布鲁雅尔(Blueair) 200系列 Particle粒子型过滤网</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+				</ul>
+				
+				<ul class="pro-list">
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro4-show01.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">索尼（SONY）55英寸 KD-55X9000E 4K超高清智能LED液晶电视 安卓6.0系统 X1芯片 HDR液晶电视</a></div>
+							<div class="pro-money">￥<span>7999.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro4-show02.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">可爱可 保鲜膜简装 30cm*60m</a></div>
+							<div class="pro-money">￥<span>12.5</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro4-show03.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">比安奇 意式特香咖啡粉 250g</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro4-show04.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">汇源100%橙汁纯果汁1L/盒</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro4-show05.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">布鲁雅尔(Blueair) 200系列 Particle粒子型过滤网</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+				</ul>
+				
+				<ul class="pro-list">
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro5-show01.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">索尼（SONY）55英寸 KD-55X9000E 4K超高清智能LED液晶电视 安卓6.0系统 X1芯片 HDR液晶电视</a></div>
+							<div class="pro-money">￥<span>7999.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro5-show02.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">可爱可 保鲜膜简装 30cm*60m</a></div>
+							<div class="pro-money">￥<span>12.5</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro5-show03.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">比安奇 意式特香咖啡粉 250g</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro5-show04.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">汇源100%橙汁纯果汁1L/盒</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro5-show05.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">布鲁雅尔(Blueair) 200系列 Particle粒子型过滤网</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+				</ul>
+				
+				<ul class="pro-list">
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro6-show01.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">索尼（SONY）55英寸 KD-55X9000E 4K超高清智能LED液晶电视 安卓6.0系统 X1芯片 HDR液晶电视</a></div>
+							<div class="pro-money">￥<span>7999.0</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro6-show02.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">可爱可 保鲜膜简装 30cm*60m</a></div>
+							<div class="pro-money">￥<span>12.5</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro6-show03.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">比安奇 意式特香咖啡粉 250g</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro6-show04.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">汇源100%橙汁纯果汁1L/盒</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+					<li>
+						<div class="pro-show">
+							<div class="pro-img"><a href="#"><img src="images/pro6-show05.jpg" width="200" height="200" alt="" /></a></div>
+							<div class="pro-name"><a href="#">布鲁雅尔(Blueair) 200系列 Particle粒子型过滤网</a></div>
+							<div class="pro-money">￥<span>53.8</span></div>
+						</div>
+					</li>
+				</ul>
+			</div>		
+		</div> 
+		
+		<!--底部-->
+		<div id="footer-warpper">
+			<div id=""></div>
+		</div>
+	</body>
+</html>
